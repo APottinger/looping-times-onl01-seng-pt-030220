@@ -8,5 +8,13 @@ loop do
   end
 end
 
+songs_in_my_playlist = 50
 
+3.times do 
+  puts "I am deleting 5 songs!"
+  songs_in_my_playlist -= 5 
+end
+
+puts "Now there are #{songs_in_my_playlist}!"
+  
 
